@@ -1,0 +1,219 @@
+*{
+    font-family: 'Space Grotesk', sans-serif;
+    margin: 20px;
+    font-size: large;
+    font-weight: 500px;
+    box-sizing: border-box;
+}
+body{
+    background-color:  #FAFAFA;
+}
+div{
+    /* overflow: auto; */
+    text-align: center;
+    line-height: 2;
+    font-size: medium;
+}
+/* NAVBAR STYLING STARTS */
+.nav_bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+   }
+   /* LOGO */
+   .logo {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: serif;
+    font-style: italic;
+}
+  /* NAVBAR MENU */
+  .menu{
+    display: flex;
+    gap: 1em;
+    font-size: 36px;
+   }
+
+   .top_nav a{
+    float: left;
+    color: rgb(53, 49, 49);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 36px;
+    font-style: Space Grotesk;
+   }
+    .top_nav a.active {
+        font-weight: bolder;
+        color: #2549D3;
+        height: 1px;
+    }
+        h1{
+            color: #2549D3;
+        }
+.get_started_btn{
+  background-color: #0F298B;
+  border: none;
+  color: #FAFAFA;
+  border-radius: 10px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40px;
+   }
+   select{
+    width: 150px;
+    height: 30px;
+    padding: 5px;
+    color: #2549D3;
+    font-weight: bold;
+  }
+  select option { color: black; }
+  select option:first-child{
+    color: green;
+  }
+  .section1{
+    width: 50%;
+    margin:100px;
+    text-align: left;
+}
+.house{
+    float: left;
+}
+.p1{
+    font-size: 40px;
+}
+.fa-youtube{
+    font-size: 30px !important;
+    border-radius: 100%;
+}
+.select-property{
+    display: inline-flex;
+    background-color: white;
+    border-radius: 15px;
+}
+.select-property__option{
+    padding: 3rem;
+}
+.product{
+    width: 55%;
+    margin: 50px;
+}
+.works{
+    margin: 0px;
+}
+.find_home{
+    display: inline-flex;
+    overflow: hidden;
+}
+.house_images{
+    width: 50%;
+    margin:100px auto 100px auto;
+    text-align: center;
+    background-color: white;
+    padding: 50px;
+    margin-left: 40px;
+}
+.choose{
+    display: flex;
+    flex-direction: row;
+}
+.image2{
+    width: 60%;
+    float: left;
+    margin-right: 100px;
+}
+.choose{
+    display: flex;
+    justify-content: end;
+}
+
+.check{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.create{
+    display: flex;
+    justify-content: center;
+}
+.fp{
+    display: inline-flex;
+    overflow: hidden;
+    justify-content: center;
+    flex-direction: row;
+}
+    .properties{
+        width: 50%;
+    margin:100px;
+    text-align: center;
+    background-color: white;
+    padding: 50px;
+    margin-left: 40px;
+    }
+   .p5{
+    color: #2549D3;
+   }
+.client{
+    margin: 50px;
+}
+.lorem{
+    display: inline-flex;
+    overflow: hidden;
+}
+.j{
+    width: 50%;
+    margin:100px auto 100px auto;
+    text-align: center;
+    background-color: white;
+    padding: 50px;
+    margin-left: 40px;
+}
+    .view{
+margin-top: 0px;
+margin-bottom: 200px;
+margin-left: 10%;
+}
+.f{
+width: 50ppx;
+margin:100px 100px 100px 100px;
+text-align: center;
+padding: 50px;
+margin-left: 40px;
+color: #FAFAFA;
+}
+.z{
+    margin: auto;
+}
+.s{
+    display: flex;
+    border: solid white;
+    background-color: blue;
+    color: white
+}
+.g{
+    display: flex;
+    flex-direction: row;
+}
+.b{
+    display: flex;
+    flex-direction: row;
+}
+#w{
+    font-size: 36px;
+    color: blue;
+    flex-direction: row;
+}
+.property_1{
+    text-align: center;
+    flex-direction: row;
+    display: inline-flex;
+}
+.image-2.png{
+    display: flex;
+    flex-direction: row;
+
+}
